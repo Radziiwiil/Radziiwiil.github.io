@@ -1,0 +1,43 @@
+﻿body {
+background-color: #000000;
+font-family: retro_computer;
+} 
+
+@font-face {
+    font-family: retro_computer;
+    src: url(retro_computer.ttf);
+}
+
+.Game {
+  clip-path: polygon(0 20%, 5% 20%, 5% 0, 95% 0, 95% 20%, 100% 20%, 100% 80%, 95% 80%, 95% 100%, 5% 100%, 5% 80%, 0 80%);
+  text-align: center;
+  font-size: 35px;
+  width: 300px;
+  height: 75px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 15s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: relative;
+}
+
+@keyframes example {
+  0%   {background-color: #00FF41; left: 0%; color: #0D0208;}
+  33%  {background-color: #008F11; color: #003B00;}
+  66%  {background-color: #003B00; left: calc((100% - 250px)/0,25); color: #008F11;}
+  100% {background-color: #0D0208; left: calc(100% - 250px); color: #00FF41;}
+}
+
+.Prace {
+ font-size: 35px;
+ color: #FFFFFF
+}
+
+.Powrot {
+ font-size: 20px;
+ color: #FFFFFF
+}
+
+
