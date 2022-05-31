@@ -9,13 +9,13 @@ font-face {
 }
 
 a {
+    font-family: retro_computer;
     font-size: 20px;
     color: #FFFFFF;
     text-decoration: none;
 }
 
 a:hover {
-    cursor: url('Kursory/Link Select.cur'), auto;
     animation-name: BLINK ;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
