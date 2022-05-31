@@ -8,13 +8,13 @@ font-face {
     src: url(retro_computer.ttf);
 }
 
-a {
+a.one {
     font-family: retro_computer;
     font-size: 20px;
     text-decoration: none;
 }
 
-a:hover {
+a.one:hover {
     animation-name: BLINK ;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
