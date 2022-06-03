@@ -5,7 +5,7 @@ body, html {
 
 @font-face {
     font-family: retro_computer;
-    src: url(retro_computer.ttf);
+    src: url(RETRO/retro_computer.ttf);
 }
 
 a.one {
