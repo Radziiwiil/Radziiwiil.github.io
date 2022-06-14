@@ -207,7 +207,7 @@ cursor: url('Kursory/arrow.cur'), auto;
 
 
 
-/*TEKST*/
+/*TEKST====================================================================================*/
 .TEKST{
  color: #FFFFFF;
  font-size: 4vw;
@@ -246,7 +246,7 @@ a.kafelek {
  -webkit-box-sizing: border-box;
  width: 20%;
  aspect-ratio: auto 1 / 1;
- border: 6px solid #00FF41;
+ border: 6px solid #005516;
  margin-left: 4%;
  float:left;
  cursor: url('Kursory/Cursor_15.cur'), auto;
