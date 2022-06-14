@@ -347,7 +347,7 @@ a.kafelek#ENIAC:hover {
   overflow: hidden;
   position: fixed;
   top: 0;
-  width: 92%;
+  width: calc(100% - 74px);
   background: #000000;
 }
 
