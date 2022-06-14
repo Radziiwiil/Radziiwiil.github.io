@@ -226,7 +226,7 @@ cursor: url('Kursory/arrow.cur'), auto;
     border-right: 10px solid #000000
 }
 
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 1194px) {
   .zdj1 {
      margin-left: calc(50% - 350px);
      border-bottom: 15px solid #000000;
