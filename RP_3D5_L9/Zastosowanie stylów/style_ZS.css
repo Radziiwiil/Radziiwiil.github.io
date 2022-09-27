@@ -1,0 +1,25 @@
+﻿body, html {
+	background-image: linear-gradient(to bottom right, #39AB9A, #BCD6B5);
+    height:100%;
+}
+
+#droga {
+	margin: auto;
+	background-color:white;
+	border:40px solid red;
+	margin-bottom:20px;
+	margin-top:20px;
+	font-size:30px;
+	padding:5px;
+	text-align: center;
+	width: 300px
+}
+
+#stop {
+	margin: auto;
+    background: white;
+	border:16px solid red;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+}
