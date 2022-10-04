@@ -16,6 +16,9 @@
 }
 
 #stop {
+	margin-bottom:20px;
+	margin-top:20px;
+	padding:5px;
 	margin: auto;
     	background: white;
 	border:16px solid red;
@@ -25,6 +28,9 @@
 }
 
 #z601 {
+	margin-bottom:20px;
+	margin-top:20px;
+	padding:5px;
 	margin: auto;
     	background: yellow;
     	box-shadow: 0 0 0 5px white;
