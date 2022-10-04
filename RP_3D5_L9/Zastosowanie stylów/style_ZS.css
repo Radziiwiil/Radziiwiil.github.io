@@ -27,7 +27,8 @@
 #601 {
 	margin: auto;
     	background: yellow;
-	border:16px dashed black;
+	border: 16px dashed black;
     	width: 160px;
     	height: 80px;
+	border-radius: 5px;
 }
