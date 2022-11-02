@@ -1,0 +1,37 @@
+﻿header {
+	width: 100%;
+	float:left;
+	background-color: lightgreen;
+	text-align: center;
+}
+
+nav {
+	width: 30%;
+	float: left;
+	background-color: lightblue;
+	height: 765px;
+}
+
+main {
+	width: 70%;
+	float:left;
+	background-color: lightyellow;
+	height: 765px;
+}
+
+footer {
+	width: 100%;
+	float:left;
+	text-align: right;
+	background-color: green;
+	color: white;
+}
+
+div {
+	background-color: white;
+	border: 5px outset brown;
+	text-align: center;
+	margin: auto;
+	width: 80%;
+	margin-bottom: 10%
+}
