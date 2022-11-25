@@ -106,7 +106,7 @@ a {
 	animation-duration: 1s;
 }
 
-.oferta:hover .jaok{
+.oferta:hover .jaok, .jaok:hover{
 	position: absolute;
 	animation-name: ani;
 	left: 0;
