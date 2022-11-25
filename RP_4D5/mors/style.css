@@ -67,6 +67,8 @@ div.oferta {
 	justify-content: center;
 	align-items: center;
 	margin-left: 10px;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
 }
 
 div.oferta > p {
@@ -74,6 +76,13 @@ div.oferta > p {
 	text-align: center;
 	font-weight: bold;
 	font-size: 2vh;
+	cursor: pointer;
+}
+
+div.ramka {
+	height: 100%;
+	display: flex;
+	align-items: center;
 }
 
 a {
@@ -101,9 +110,10 @@ a {
 	position: absolute;
 	top: 20vh;
 	left: -50vh;
-	animation-name: ina;
+	animation: ina 1s linear 0s 1 normal forwards;
 	display: block;
-	animation-duration: 1s;
+	visibility: hidden;
+	margin: auto;
 }
 
 .oferta:hover .jaok, .jaok:hover{
@@ -112,10 +122,12 @@ a {
 	left: 0;
 	display: block;
 	animation-duration: 1s;
+	visibility: visible;
 }
 
 img {
 	height: 60vh;
 	width: 90vh;
 	box-shadow: 3px 4px 10px #726c58;
+	border-radius: 20px;
 }
