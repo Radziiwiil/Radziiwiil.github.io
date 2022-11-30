@@ -81,11 +81,13 @@ td {
 	color: beige;
 	margin-top: 20px;
 	width: 100%;
+	background-color: #113306;
 }
 
 div.opis {
 	border: 2px solid beige;
 	margin-top: 30px;
+	background-color: #113306;
 }
 
 div.opis > p {
