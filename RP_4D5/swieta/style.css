@@ -82,12 +82,14 @@ td {
 	margin-top: 20px;
 	width: 100%;
 	background-color: #113306;
+	cursor: crosshair;
 }
 
 div.opis {
 	border: 2px solid beige;
 	margin-top: 30px;
 	background-color: #113306;
+	cursor: help;
 }
 
 div.opis > p {
@@ -117,6 +119,7 @@ section.pan_gl > div {
 
 img {
 	height: 90vh;
+	cursor: pointer;
 }
 
 footer {
