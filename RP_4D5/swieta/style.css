@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: mate;
+	src: url(glowne.otf);
+}
+
+@font-face {
+	font-family: tyt;
+	src: url(tytul.otf);
+}
+
+p {
+	font-family: mate;
+	color: beige;
+	font-size: calc(6px + 1vh);
+}
+
+h1 {
+	font-family: tyt;
+	color: beige;
+	font-size: calc(15px + 4vh);
+	font-weight: normal;
+}
+
+ul {
+	font-family: mate;
+	color: beige;
+	font-size: calc(6px + 1vh);
+	padding-left: 30px;
+	list-style-type: none;
+}
+
+header {
+	background-color: #a51010;
+	float: left;
+	width: 100%;
+	height: 7vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.wzor {
+	height: 4vh;
+	float: left;
+	width: 100%;
+	background-color: #06250d;
+	position: relative;
+}
+
+div.pasek {
+	background-image: url(texture.png);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.2;
+}
+
+section.pan_b {
+	background-color: #102908;
+	float: left;
+	width: 25%;
+	height: 84vh;
+	padding: 20px;
+}
+
+table,
+tr,
+th,
+td {
+	border: 2px solid beige;
+	border-collapse: collapse;
+	padding: 4px;
+	color: beige;
+	margin-top: 20px;
+	width: 100%;
+}
+
+div.opis {
+	border: 2px solid beige;
+	margin-top: 30px;
+}
+
+div.opis > p {
+	font-size: calc(6px + 1vh);
+	padding: 10px;
+	line-height: 22px;
+}
+
+section.pan_gl {
+	background-color: #3b0808;
+	float: left;
+	width: 75%;
+	height: 84vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section.pan_gl > div {
+	background: #290606;
+	width: 95%;
+	height: 92%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	height: 90vh;
+}
+
+footer {
+	background-color: #113306;
+	float: left;
+	width: 100%;
+	height: 5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer > p {
+	text-align: right;
+	color: white;
+}
+
+li {
+	position: relative;
+}
+
+li.star::before {
+	content: "";
+	position: absolute;
+	left: -14px;
+	top: 14px;
+	background: beige;
+	width: 8px;
+	height: 8px;
+	text-align: center;
+	transform: rotate(0deg);
+}
+
+li.star::after {
+	content: "";
+	position: absolute;
+	top: 14px;
+	left: -14px;
+	height: 8px;
+	width: 8px;
+	background: beige;
+	transform: rotate(45deg);
+}
