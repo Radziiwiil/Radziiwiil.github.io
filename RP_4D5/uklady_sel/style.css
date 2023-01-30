@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+}
+
+div > p {
+    margin: 20px;
+    color:white;
+}
+
+body, html {
+    font-family:Arial,sans-serif;
+    font-size:30px;
+    font-weight:bold;
+    width: 100%;
+}
+
+section.pier {
+    width: 100%;
+    height: 10vh;
+    background-color: blue;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+section.pier > div {
+    width: 80vw;
+    height: 5vh;
+    background-color: lightblue;
+    float: left;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.drug {
+    width: 100%;
+    height: 50vh;
+    background-color: lightblue;
+    float: left;
+    
+}
+
+#i1 {
+    width: 80vw;
+    height: 20vh;
+    background-color: azure;
+    margin: 15px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#i2 {
+    width: 80vw;
+    height: 20vh;
+    background-color: azure;
+    margin: 15px;
+    float: left; 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#i1 > p, #i2 > p {
+    margin: 20px;
+    color:blue;
+}
+
+section.trze {
+    width: 100%;
+    height: 40vh;
+    background-color: lightskyblue;
+    float: left;
+}
+
+.uniw {
+    height: 10vh;
+    background-color: rgb(168, 214, 214);
+    margin: 15px;
+    float: left;
+}
+
+.uniw > p {
+    color:black;
+}
+
+#uniw1 {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#uniw2 {
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#uniw3 {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#uniw3 > p {
+    color: gray;
+}
