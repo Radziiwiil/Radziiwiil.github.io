@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(15, 44, 105);
+}
+
+section {
+    position: relative;
+    float: left;
+    height: 25vh;
+    aspect-ratio: 1 / 1;
+    background-color: rgb(46, 82, 160);
+    margin: 32px;
+}
+
+div {
+    height: 5vh;
+    aspect-ratio: 1/1;
+    background-color:white;
+    border:1px solid black;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+#o5 > div {
+    border-radius: 3vh;
+}
+
+#o11 {
+    top:10vh;
+    left: 5vh;
+    background-color: rgb(21, 255, 0);
+}
+
+#o12 {
+    top:10vh;
+    left: 15vh;
+    background-color: rgb(0, 217, 255);
+}
+
+#o21 {
+    top:7.5vh;
+    left:7.5vh;
+    background-color: red;
+}
+
+#o22 {
+    top:12.5vh;
+    left:7.5vh;
+    background-color: black;
+}
+
+#o23 {
+    top:7.5vh;
+    left:12.5vh;
+    background-color: black;
+}
+
+#o24 {
+    top:12.5vh;
+    left:12.5vh;
+    background-color: red;
+}
+
+#o31 {
+    top:5vh;
+    left:5vh;
+    background-color: red;
+}
+
+#o32 {
+    top:5vh;
+    left:15vh;
+    background-color: rgb(251, 255, 0);
+}
+
+#o33 {
+    top:10vh;
+    left:10vh;
+    background-color: rgb(21, 255, 0);
+}
+
+#o34 {
+    top:15vh;
+    left:5vh;
+    background-color: rgb(0, 183, 255);
+}
+
+#o35 {
+    top:15vh;
+    left:15vh;
+    background-color: rgb(195, 0, 255);
+}
+
+#o41 {
+    top:2vh;
+    left:2vh;
+    height: 21vh;
+    background-color: rgb(255, 0, 106);
+}
+
+#o42 {
+    top:5vh;
+    left:5vh;
+    height: 15vh;
+    background-color: rgb(195, 0, 255);
+}
+
+#o43 {
+    top:5vh;
+    left: 5vh;
+    height: 8vh;
+}
+
+#o51 {
+    top:8vh;
+    left:8vh;
+    background-color: rgb(255, 0, 0);
+}
+
+#o52 {
+    top:10vh;
+    left:10vh;
+    background-color: rgb(0, 255, 0);
+}
+
+#o53 {
+    top:12vh;
+    left:12vh;
+    background-color: rgb(0, 0, 255);
+}
