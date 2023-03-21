@@ -1,0 +1,115 @@
+* { 
+    margin: 0;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    position: relative;
+    float: left;
+    width: 100vw;
+    height: 10vh;
+    background-color: #A3836E;
+    color: #001D26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.7vh;
+}
+
+nav {
+    position: relative;
+    float: left;
+    width: 30vw;
+    height: 85vh;
+    background-color: #D7BB95;
+    color: #282828;
+}
+
+nav > p {
+    margin-left: 5px;
+    margin-top: 40px;
+    font-size: 2vh;
+    cursor: pointer;
+}
+
+ul {
+    margin-top: 20px;
+    margin-left: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 2vh;
+    cursor: pointer;
+}
+
+.poj {
+    background-color: #A3836E;
+    margin: 2px;
+    height: 4vh;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #001D26;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.poj:hover {
+    background-color: #a78977;
+}
+
+main {
+    position: relative;
+    float: left;
+    width: 70vw;
+    height: 85vh;
+    background-color: #D7B877;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > div > p {
+    font-size: 4vh;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+#tekst2 {
+    text-align: center;
+}
+
+img {
+    margin: 30px;
+    height: 40vh;
+    max-width: 60vw;
+}
+
+
+footer {
+    position: relative;
+    float: left;
+    width: 100vw;
+    height: 5vh;
+    background-color: #A3836E;
+    color: #001D26;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+h4 {
+    margin-right: 20px;
+    font-size: 1.8vh;
+}
