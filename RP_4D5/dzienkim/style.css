@@ -87,7 +87,11 @@ main > div > p {
 }
 
 #tekst2 {
-    text-align: center;
+    color: white;
+}
+
+#tresc {
+    font-size: 2vh;
 }
 
 img {
