@@ -81,7 +81,9 @@ main {
 
 #zyc {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 main > div > p {
