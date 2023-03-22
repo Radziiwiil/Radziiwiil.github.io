@@ -79,6 +79,12 @@ main {
     align-items: center;
 }
 
+#zyc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 main > div > p {
     font-size: 4vh;
     color: aliceblue;
