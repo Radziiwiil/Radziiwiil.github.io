@@ -37,6 +37,6 @@
     z-index: 5;
 }
 
-div:active{
+#as,#krol,#dama,#walet:active{
     z-index: 6;
 }
