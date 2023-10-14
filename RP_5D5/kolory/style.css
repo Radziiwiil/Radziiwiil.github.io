@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(233, 140, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    float: left;
+}
+
+main {
+    width: 100%;
+    height: 85%;
+    background-color: rgb(247, 203, 165);
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section {
+    border: 2px solid rgb(134, 69, 8);
+    background-color: rgba(134, 69, 8, 0.452);
+}
+
+#figura {
+    width: 42.5%;
+    height: 80%;
+    float: left;
+    margin-right: 2.5%;
+}
+
+#figura p {
+    float: left;
+    font-size: 3vh;
+    text-align: center;
+    width: 25%;
+    margin-top: 2%;
+}
+
+div.troj {
+    width: 0;
+	height: 0;
+	border-left: 15vh solid transparent;
+	border-right: 15vh solid transparent;
+	border-bottom: 30vh solid #555;
+    margin: auto;
+    margin-top: 20%;
+}
+
+/*==============================================================*/
+.zie:hover ~ div.troj { border-bottom: 30vh solid #16bd32; }
+.nie:hover ~ div.troj { border-bottom: 30vh solid #09078a; }
+.cze:hover ~ div.troj { border-bottom: 30vh solid #bd2916; }
+.zol:hover ~ div.troj { border-bottom: 30vh solid #dbc70d; }
+/*==============================================================*/
+
+#kwiatek {
+    width: 42.5%;
+    height: 80%;
+    float: left;
+    margin-left: 2.5%;
+}
+
+input[type="button"] {
+    text-decoration: none;
+    height: 5%;
+    width: 20%;
+    background-color: #f5d20b;
+    margin-left: 40%;
+    margin-top: 5%;
+    
+}
+
+#kwiatek div {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 100%;
+    background-color: #f5d20b;
+    position: relative;
+}
+
+.pla {
+    background-color: #bd291600 !important;
+}
+
+#pl1 {
+    top: 10%;
+    left: calc(50% - 5vh);
+}
+
+#pl2 {
+    top: 6%;
+    left: calc(50.5% - 15vh);
+}
+
+#pl3 {
+    top: -8%;
+    left: calc(49.5% + 5vh);
+}
+
+.sro {
+    top: -19.5%;
+    left: calc(50% - 5vh);
+}
+
+#pl4 {
+    top: -22%;
+    left: calc(43% - 5vh);
+}
+
+#pl5 {
+    top: -37%;
+    left: calc(57% - 5vh);
+}
+
+input:active ~ .pla { background-color: #bd2916 !important; }
+
+footer {
+    width: 100%;
+    height: 5%;
+    background-color: rgb(250, 160, 82);
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
