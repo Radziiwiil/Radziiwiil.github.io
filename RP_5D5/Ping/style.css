@@ -2,3 +2,31 @@
     margin:0;
     padding:0;
 }
+
+body, html {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: flex-end;
+}
+
+img {
+  display: inline-block;
+}
+
+#ping1 {
+  float: left;
+  position: fixed;
+}
+
+#ping2 {
+  float: left;
+  margin-left: 20%;
+}
+
+#ping3 {
+  float: left;
+}
+
+#ping4 {
+  float: left;
